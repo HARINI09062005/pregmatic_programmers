@@ -122,3 +122,12 @@ cat output/output.json
 - [x] ✅ Executes with **no internet access**
 - [x] ✅ Memory usage remains within **16GB limit**
 - [x] ✅ Fully compatible with **linux/amd64** (x86_64) architecture
+      
+---
+
+## 👨‍💻 Author
+
+Built with ❤️ by [Harini M / Yuvaraj S]  
+For Adobe India Hackathon 2025 – Challenge 1a
+
+---
