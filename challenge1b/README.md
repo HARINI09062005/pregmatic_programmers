@@ -128,6 +128,6 @@ cat output/output.json
 ## 👨‍💻 Author
 
 Built with ❤️ by [Harini M / Yuvaraj S]  
-For Adobe India Hackathon 2025 – Challenge 1a
+For Adobe India Hackathon 2025 – Challenge 1b
 
 ---
