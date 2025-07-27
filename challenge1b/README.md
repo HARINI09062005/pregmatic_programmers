@@ -75,14 +75,21 @@ challenge1b/
 ```
 
 ## 1. Build Docker Image
+```
+
 docker build -t pdf-analyzer .
+
+```
 
 ## 2. Run the Analyzer
 
+```
 docker run --rm \
   -v $(pwd)/input:/app/input \
   -v $(pwd)/output:/app/output \
   pdf-analyzer
+
+```
 
 ## 3. View Output
 Check the generated output:
