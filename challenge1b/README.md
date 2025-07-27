@@ -91,34 +91,34 @@ cat output/output.json
 # ✅ Validation Checklist
 
 #### 📄 Output Format Requirements
-- [ ] `output/challenge1b_output.json` is generated
-- [ ] Output includes top-level `metadata`, `extracted_sections`, and `subsection_analysis` fields
+- [x] `output/challenge1b_output.json` is generated
+- [x] Output includes top-level `metadata`, `extracted_sections`, and `subsection_analysis` fields
 
 **Metadata**
-- [ ] Contains list of input documents
-- [ ] Contains persona string
-- [ ] Contains job-to-be-done string
+- [X] Contains list of input documents
+- [x] Contains persona string
+- [x] Contains job-to-be-done string
 
 **Extracted Sections**
-- [ ] Each entry includes `document` (PDF filename)
-- [ ] Each entry includes `page_number` (integer)
-- [ ] Each entry includes `section_title` (string)
-- [ ] Each entry includes `importance_rank` (integer)
+- [x] Each entry includes `document` (PDF filename)
+- [x] Each entry includes `page_number` (integer)
+- [x] Each entry includes `section_title` (string)
+- [x] Each entry includes `importance_rank` (integer)
 
 **Subsection Analysis**
-- [ ] Each entry includes `document` (PDF filename)
-- [ ] Each entry includes `refined_text` (≤200 words, semantically relevant)
-- [ ] Each entry includes `page_number` (integer)
+- [x] Each entry includes `document` (PDF filename)
+- [x] Each entry includes `refined_text` (≤200 words, semantically relevant)
+- [x] Each entry includes `page_number` (integer)
 
-- [ ] Output conforms to schema defined in `sample_dataset/schema/output_schema.json`
+- [x] Output conforms to schema defined in `sample_dataset/schema/output_schema.json`
 
 ---
 
 #### 🚦 Runtime & Resource Constraints
-- [ ] ✅ Runs on **CPU only**
-- [ ] ✅ Total **model size ≤ 1GB**
-- [ ] ✅ Processing time ≤ 60 seconds for 3–5 PDF documents
-- [ ] ✅ Processing completes within 10 seconds for a single 50-page PDF
-- [ ] ✅ Executes with **no internet access**
-- [ ] ✅ Memory usage remains within **16GB limit**
-- [ ] ✅ Fully compatible with **linux/amd64** (x86_64) architecture
+- [x] ✅ Runs on **CPU only**
+- [x] ✅ Total **model size ≤ 1GB**
+- [x] ✅ Processing time ≤ 60 seconds for 3–5 PDF documents
+- [x] ✅ Processing completes within 10 seconds for a single 50-page PDF
+- [x] ✅ Executes with **no internet access**
+- [x] ✅ Memory usage remains within **16GB limit**
+- [x] ✅ Fully compatible with **linux/amd64** (x86_64) architecture
