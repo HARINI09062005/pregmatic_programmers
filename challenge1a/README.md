@@ -73,7 +73,7 @@ The JSON for each PDF looks like this:
 
 ### 🔧 Build the Image
 ```bash
-docker build --platform linux/amd64 -t pdf-outline-extractor .
+docker build -t pdf-outline-extractor .
 ```
 
 ### ▶️ Run the Container
